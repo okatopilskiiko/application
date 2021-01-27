@@ -13,9 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="im first"
+        android:text="You are on the first fragment.\n
+        1) Try to focus OPEN SECOND via dpad  \n
+        2) tap Ok \n
+        3) on the Second page tap Back batton \n
+        4) You will be returned here. Second button is still focused\n
+        \n
+        5) If you plug your library you will see that focus is not restored"
         android:textColor="#000000" />
-
 
     <com.example.myapplication.BaseButton
         android:id="@+id/noActionSecondButton"
